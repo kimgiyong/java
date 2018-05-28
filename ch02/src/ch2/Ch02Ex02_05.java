@@ -14,6 +14,6 @@ public class Ch02Ex02_05 {
 		float b = Float.parseFloat(gate);
 		float mul = a*b;
 		
-		System.out.printf("%f * %f = %f",a,b,mul);
+		System.out.printf("%d * %f = %f",a,b,mul);
 	}
 }
