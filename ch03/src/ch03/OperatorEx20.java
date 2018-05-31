@@ -7,5 +7,4 @@ public class OperatorEx20 {
 		System.out.println(10%-8);
 		System.out.println(-10%-8);
 	}
-
 }
