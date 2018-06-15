@@ -14,7 +14,7 @@ public class Ch03Ex01_04 {
 		gate = first.nextLine();
 		int b = Integer.parseInt(gate);
 		
-		System.out.printf("%b %b",a==b,a!=b);
+		System.out.printf("%b%n%b",a==b,a!=b);
 	}
 
 }

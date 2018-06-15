@@ -10,7 +10,7 @@ public class Ch03Ex01_02 {
 		String gate = first.nextLine();
 		int a = Integer.parseInt(gate);
 		
-		System.out.printf("%d %d",a++,++a);
+		System.out.printf("%d%n%d",a++,++a);
 	}
 
 }

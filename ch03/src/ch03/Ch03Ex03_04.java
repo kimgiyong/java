@@ -16,12 +16,13 @@ public class Ch03Ex03_04 {
 		gate = first.nextLine();
 		double c = Double.parseDouble(gate); // 세번쨰 수 입력
 		
-		double d = (a+b+c)/3; //첫번째,두번째,세번째수의 평균 double형식으로 구함
 		int e = (int)a; //a를 int형식으로 바꿔서 e에 저장
 		e = e+(int)b; // b를 int형식으로 바꿔서 e와 더한후 저장
 		e = e+(int)c; // c를 int형식으로 바꿔서 e와 더한후 저장
+		int f = (int)a + (int)b + (int)c;
+		double d = (a+b+c)/3; //첫번째,두번째,세번째수의 평균 double형식으로 구함
 		
-		System.out.printf("sum %d%n",e);
+		System.out.printf("sum %d%n",f);
 		System.out.printf("avg %.0f%n",d);
 	}
 }
