@@ -17,7 +17,8 @@ public class ObjectTest4 {
 	public static void main(String argg[]) {
 		ObjectTest4[] ot4s = new ObjectTest4[2];
 		ot4s[0] = new ObjectTest4(5, 10, "menmen");
-		String str = ot4s[0].toString();
-		System.out.println(str);
+		ot4s[1] = new ObjectTest4(50, 20, "Hellk");
+		System.out.println(ot4s[0]);
+		System.out.println(ot4s[1]);
 	}
 }
